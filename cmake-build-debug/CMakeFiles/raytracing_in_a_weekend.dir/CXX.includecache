@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Camera.h
+ray.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/ray.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/HitAble.h
+ray.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/ray.h
+vec3.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/vec3.h
+Material.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Material.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Main.cpp
+iostream
+-
+fstream
+-
+random
+-
+stdlib.h
+-
+vec3.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/vec3.h
+ray.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/ray.h
+hitable_list.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/hitable_list.h
+float.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/float.h
+sphere.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/sphere.h
+Material.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Material.h
+Camera.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Camera.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Material.h
+HitAble.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/HitAble.h
+hitable_list.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/hitable_list.h
+ray.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/ray.h
+vec3.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/vec3.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/hitable_list.h
+HitAble.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/HitAble.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/ray.h
+vec3.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/vec3.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/sphere.h
+HitAble.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/HitAble.h
+Material.h
+C:/Repos/raytracing in a weekend/raytracing in a weekend/Material.h
+
+C:/Repos/raytracing in a weekend/raytracing in a weekend/vec3.h
+math.h
+-
+stdlib.h
+-
+iostream
+-
+
