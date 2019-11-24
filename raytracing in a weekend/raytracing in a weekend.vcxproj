@@ -120,15 +120,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aabb.h" />
+    <ClInclude Include="aarect.h" />
+    <ClInclude Include="box.h" />
     <ClInclude Include="bvh.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="constant_medium.h" />
     <ClInclude Include="hitable_list.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="moving_sphere.h" />
+    <ClInclude Include="noise.h" />
     <ClInclude Include="rnd.h" />
+    <ClInclude Include="scenes.h" />
     <ClInclude Include="sphere.h" />
     <ClInclude Include="HitAble.h" />
     <ClInclude Include="ray.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="translate.h" />
+    <ClInclude Include="volume.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

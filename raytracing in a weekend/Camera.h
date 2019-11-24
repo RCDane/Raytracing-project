@@ -2,10 +2,13 @@
 
 #ifndef CAMERAH
 #define CAMERAH
+#define _USE_MATH_DEFINES
+#include <math.h>
 
 #include "ray.h"
 #include "stdio.h"
 #include "rnd.h"
+
 vec3 random_in_unit_disk() {
 	vec3 p;
 	do {
@@ -20,7 +23,7 @@ public:
 		time0 = t0;
 		time1 = t1;
 		lens_radius = aperture / 2;
-		float theta = vfov * std::_Pi / 180;
+		float theta = vfov * M_PI / 180;
 		float half_height = tan(theta / 2);
 		float half_width = aspect * half_height;
 		origin = lookfrom;

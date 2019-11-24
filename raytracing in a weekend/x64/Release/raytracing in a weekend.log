@@ -1,41 +1,88 @@
 ﻿  Main.cpp
-c:\repos\raytracing in a weekend\raytracing in a weekend\vec3.h(55): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\vec3.h(134): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\hitable_list.h(23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\rnd.h(14): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\material.h(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\material.h(90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\camera.h(12): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\camera.h(23): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\camera.h(40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(31): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(52): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(52): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(64): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(65): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(74): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(73): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(76): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(84): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(85): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(87): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(90): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(97): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(98): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(126): warning C4244: 'initializing': conversion from 'long double' to 'float', possible loss of data
-c:\repos\raytracing in a weekend\raytracing in a weekend\main.cpp(108): warning C4101: 'err': unreferenced local variable
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(19): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(18): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(21): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(20): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(37): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(38): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(39): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(40): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aabb.h(41): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(96): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(105): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(106): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable.h(107): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(62): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(65): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(79): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(82): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\aarect.h(83): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\hitable_list.h(23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(28): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\box.h(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\camera.h(26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\camera.h(43): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\noise.h(41): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(63): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(64): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\texture.h(65): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\material.h(25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\material.h(26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\material.h(112): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\material.h(116): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\material.h(117): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\constant_medium.h(36): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\constant_medium.h(48): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\constant_medium.h(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\constant_medium.h(53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\moving_sphere.h(35): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\moving_sphere.h(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\moving_sphere.h(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\sphere.h(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\sphere.h(22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\sphere.h(23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(84): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(86): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(91): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(104): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(134): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(153): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(173): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(174): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(222): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(226): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(230): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(230): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(233): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(263): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\repos\raytracing-project\raytracing in a weekend\main.cpp(254): warning C4101: 'err': unreferenced local variable
   Generating code
-  1 of 218 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+  0 of 252 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  raytracing in a weekend.vcxproj -> C:\Repos\raytracing in a weekend\x64\Release\raytracing in a weekend.exe
+  raytracing in a weekend.vcxproj -> C:\Repos\Raytracing-project\x64\Release\raytracing in a weekend.exe
