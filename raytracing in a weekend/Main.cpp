@@ -29,7 +29,7 @@ vec3 color(const ray& r, hittable *world, int depth) {
 			return emitted;
 	}
 	else
-		return vec3(0.8, 0.8, 0.8);
+		return vec3(0.7, 0.7, 0.7);
 }
 
 
@@ -109,7 +109,7 @@ hittable *cornell_final() {
 	material *red = new lambertian(new constant_texture(vec3(0.65, 0.05, 0.05)));
 	material *white = new lambertian(new constant_texture(vec3(0.73, 0.73, 0.73)));
 	material *green = new lambertian(new constant_texture(vec3(0.12, 0.45, 0.15)));
-	material *light = new diffuse_light(new constant_texture(vec3(7, 7, 7)));
+	material *light = new diffuse_light(new constant_texture(vec3(4, 4, 4)));
 	//list[i++] = new sphere(vec3(260, 50, 145), 50,mat);
 	list[i++] = new flip_normals(new yz_rect(0, 555, 0, 555, 555, green));
 	list[i++] = new yz_rect(0, 555, 0, 555, 0, red);
@@ -117,7 +117,7 @@ hittable *cornell_final() {
 	list[i++] = new flip_normals(new xz_rect(0, 555, 0, 555, 555, white));
 	list[i++] = new xz_rect(0, 555, 0, 555, 0, white);
 	list[i++] = new flip_normals(new xy_rect(0, 555, 0, 555, 555, white));
-	/*
+	
 	hittable *boundary = new sphere(vec3(160, 50, 345), 50, new dielectric(1.5));
 	list[i++] = boundary;
 	list[i++] = new constant_medium(boundary, 0.2, new constant_texture(vec3(0.2, 0.4, 0.9)));
@@ -128,7 +128,7 @@ hittable *cornell_final() {
 		boxlist[j] = new sphere(vec3(165*random_double(), 330*random_double(), 165*random_double()), 10, white);
 	}
 	list[i++] =   new translate(new rotate_y(new bvh_node(boxlist,ns, 0.0, 1.0), 15), vec3(265,0,295));
-	*/
+	
 	hittable *boundary2 = new translate(new rotate_y(new box(vec3(0, 0, 0), vec3(165, 165, 165), new dielectric(1.5)), -18), vec3(130, 0, 65));
 	list[i++] = boundary2;
 	list[i++] = new constant_medium(boundary2, 0.2, new constant_texture(vec3(0.9, 0.9, 0.9)));
@@ -248,9 +248,9 @@ hittable *random_scene() {
 
 int main()
 {
-	int nx = 200;
-	int ny = 100;
-	int ns = 50;
+	int nx = 400;
+	int ny = 400;
+	int ns = 400;
 	errno_t err;
 	std::ofstream myFile;
 	std::clock_t    start;
@@ -262,7 +262,7 @@ int main()
 
 
 	float R = cos(M_PI / 4);
-	hittable *world = random_scene();
+	hittable *world = two_perlin_spheres();
 	//vec3 lookfrom(278, 278, -800);
 	//vec3 lookfrom(478, 278, -600);
 	//vec3 lookat(278, 278, 0);
