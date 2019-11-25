@@ -2,7 +2,7 @@
 What is this? \
 a raytracer written in c++ based of off Peter Shirley's raytracing book series
 
-Finished Raytracing in a Weekend and Raytracing the next week
+I have currently finished the books Raytracing in a Weekend and Raytracing the next week
 # Goal / Motivation
 This raytracer project is for me to get a better grasp on graphics programming fundamentals.
 
@@ -14,6 +14,7 @@ This raytracer project is for me to get a better grasp on graphics programming f
 
 # Future goals
 - [ ] Multithread program
-- [ ] Implement book Raytracing the rest of your life
+- [ ] Implement the third book Raytracing the rest of your life
 - [ ] Switch to other File format than .ppm
 - [ ] Implement some mesh object format and ray triangle intersection
+- [ ] Implement Compute version 
